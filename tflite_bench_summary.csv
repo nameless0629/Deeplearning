@@ -1,0 +1,3 @@
+﻿model_tag,model_path,input_name,input_dtype,input_hw,mean_ms,p50_ms,p95_ms,fps_est,runs
+ssd_v1_quant,ssd_mobilenet_v1_quant.tflite,normalized_input_image_tensor,<class 'numpy.uint8'>,300x300,4.860530998557806,4.817300010472536,5.228635013918392,205.73883806043318,100
+ssd_v2_quant,mobilenet_ssd_v2_coco_quant_postprocess.tflite,normalized_input_image_tensor,<class 'numpy.uint8'>,300x300,5.709133000345901,5.673250008840114,6.220295009552501,175.15794428670915,100
